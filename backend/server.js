@@ -7,6 +7,10 @@ import parseArgv from './parseArgv.js';
 
 const frontendDir = resolve('frontend');
 
+// SSR (서버 측의 렌더링)
+// CSR (클라이언트 측의 라우팅)
+// SPA (React Router)
+
 const DIR = {
   public: resolve(frontendDir, 'public'),
   src: resolve(frontendDir, 'src'),

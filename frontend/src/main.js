@@ -24,12 +24,8 @@ class App extends React.Component {
     }); // 상태변경 시도 -> React UI 업데이트(재조정 알고리즘)
   }
 
-  // confirmThis() {
-  //   console.log(this); // App {}
-  // }
 
   render() {
-    // this.confirmThis();
 
     return (
       <div data-component='App'>
