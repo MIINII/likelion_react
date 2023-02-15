@@ -37,4 +37,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-button
+button svg {
+  pointer-events: none;
+}
